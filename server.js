@@ -9,7 +9,7 @@ const init = async () => {
         port: Settings.port,
         // host: Settings.host,
     })
-
+    
     server.route(Routes)
 
     await server.start()
